@@ -8,6 +8,17 @@
 import Foundation
 
 class DestinationDataMock {
+    
+    static var getSingleDestination: Destination {
+        get {
+            .init(
+                place: "Lake Bled",
+                country: "Slovenia",
+                image: "photo-lakebled-slovenia"
+            )
+        }
+    }
+    
     static func getDestinations() -> [Destination] {
         return [
             .init(
