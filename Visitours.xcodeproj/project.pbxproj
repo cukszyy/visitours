@@ -15,6 +15,8 @@
 		F2BAF0B12814906C00C18E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAF09E2814906C00C18E93 /* Assets.xcassets */; };
 		F2BAF0BB2814945900C18E93 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F2BAF0BA2814945900C18E93 /* Sounds */; };
 		F2BAF0BC2814945900C18E93 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F2BAF0BA2814945900C18E93 /* Sounds */; };
+		F2CDBA4228149BCF0003736B /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CDBA4128149BCF0003736B /* Destination.swift */; };
+		F2CDBA4428149C0E0003736B /* DestinationDataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CDBA4328149C0E0003736B /* DestinationDataMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		F2BAF0A92814906C00C18E93 /* Visitours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visitours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAF0AB2814906C00C18E93 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F2BAF0BA2814945900C18E93 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		F2CDBA4128149BCF0003736B /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		F2CDBA4328149C0E0003736B /* DestinationDataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDataMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 		F2BAF09B2814906B00C18E93 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F2CDBA4028149BA80003736B /* Mock */,
+				F2CDBA3F28149B990003736B /* Model */,
 				F2BAF0BA2814945900C18E93 /* Sounds */,
 				F2BAF09C2814906B00C18E93 /* VisitoursApp.swift */,
 				F2BAF09D2814906B00C18E93 /* ContentView.swift */,
@@ -80,6 +86,22 @@
 				F2BAF0AB2814906C00C18E93 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		F2CDBA3F28149B990003736B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2CDBA4128149BCF0003736B /* Destination.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2CDBA4028149BA80003736B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				F2CDBA4328149C0E0003736B /* DestinationDataMock.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +206,8 @@
 			files = (
 				F2BAF0AE2814906C00C18E93 /* ContentView.swift in Sources */,
 				F2BAF0AC2814906C00C18E93 /* VisitoursApp.swift in Sources */,
+				F2CDBA4428149C0E0003736B /* DestinationDataMock.swift in Sources */,
+				F2CDBA4228149BCF0003736B /* Destination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
