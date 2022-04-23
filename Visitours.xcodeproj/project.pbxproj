@@ -13,6 +13,8 @@
 		F2BAF0AF2814906C00C18E93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAF09D2814906B00C18E93 /* ContentView.swift */; };
 		F2BAF0B02814906C00C18E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAF09E2814906C00C18E93 /* Assets.xcassets */; };
 		F2BAF0B12814906C00C18E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BAF09E2814906C00C18E93 /* Assets.xcassets */; };
+		F2BAF0BB2814945900C18E93 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F2BAF0BA2814945900C18E93 /* Sounds */; };
+		F2BAF0BC2814945900C18E93 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F2BAF0BA2814945900C18E93 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		F2BAF0A32814906C00C18E93 /* Visitours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visitours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAF0A92814906C00C18E93 /* Visitours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visitours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BAF0AB2814906C00C18E93 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F2BAF0BA2814945900C18E93 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 		F2BAF09B2814906B00C18E93 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F2BAF0BA2814945900C18E93 /* Sounds */,
 				F2BAF09C2814906B00C18E93 /* VisitoursApp.swift */,
 				F2BAF09D2814906B00C18E93 /* ContentView.swift */,
 				F2BAF09E2814906C00C18E93 /* Assets.xcassets */,
@@ -157,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BAF0BB2814945900C18E93 /* Sounds in Resources */,
 				F2BAF0B02814906C00C18E93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BAF0BC2814945900C18E93 /* Sounds in Resources */,
 				F2BAF0B12814906C00C18E93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
